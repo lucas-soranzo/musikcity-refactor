@@ -1,0 +1,95 @@
+@charset "UTF-8"; 
+h1,h2,h3,h4,h5,h6{
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+body {
+	margin-top: 0px;
+	background-image: url(/figuras/bgpartyinrio.jpg);
+	background-color: #0A0607;
+	margin-left: 1px;
+}
+a:link {
+	color: #F90;
+}
+a:visited {
+	color: #F90;
+}
+a:hover {
+	color: #F90;
+}
+a:active {
+	color: #F90;
+}
+h1 {
+	color: #09F;
+}
+h2 {
+	color: #09F;
+}
+h4 {
+	color: #FFF;
+}
+ul {
+margin: 0;
+padding-left: 1em;
+}
+li {
+  padding: 1px;
+  margin-bottom:5px;
+}
+table, td, tr {
+	border-color:#906;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.menu li {
+	float: left;
+	list-style-type: none;
+ 	list-style-position:inside;
+    border: 6px solid #000000;
+	background-color: #F00;
+}
+.menu li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: left;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+.menu li a:hover, .dropdown:hover .dropbtn {
+    background-color: #993399;
+}
+.menu li.dropdown {
+    display: inline-block;
+}
+.menu .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.menu .dropdown-content a {
+    color: black;
+    padding: 4px 8px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.menu .dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+.menu .dropdown:hover .dropdown-content {
+    display: block;
+}
